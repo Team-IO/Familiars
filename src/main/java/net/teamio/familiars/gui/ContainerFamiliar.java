@@ -10,17 +10,14 @@ import net.teamio.familiars.entities.EntityFamiliar;
 
 public class ContainerFamiliar extends Container {
 
-	private EntityFamiliar familiar;
 	private IInventory inventory;
 	
 	public ContainerFamiliar(InventoryPlayer inventoryPlayer, EntityFamiliar familiar) {
 		
-		this.familiar = familiar;
-		
 		inventory = familiar.inventory;
 		
 		for (int i = 0; i < inventory.getSizeInventory(); i++) {
-			addSlotToContainer(new Slot(inventory, i, 44 + i * 18, 20));
+			addSlotToContainer(new Slot(inventory, i, 44 + (i % 5) * 18, 20 + (i / 5) * 18));
 		}
 
 		bindPlayerInventory(inventoryPlayer);
@@ -36,12 +33,12 @@ public class ContainerFamiliar extends Container {
 	protected void bindPlayerInventory(InventoryPlayer inventoryPlayer) {
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 9; j++) {
-				addSlotToContainer(new Slot(inventoryPlayer, j + i * 9 + 9, 8 + j * 18, /*84*/51 + i * 18));
+				addSlotToContainer(new Slot(inventoryPlayer, j + i * 9 + 9, 8 + j * 18, /*84*/51 + i * 18 + 18));
 			}
 		}
 
 		for (int i = 0; i < 9; i++) {
-			addSlotToContainer(new Slot(inventoryPlayer, i, 8 + i * 18, 109));
+			addSlotToContainer(new Slot(inventoryPlayer, i, 8 + i * 18, 109 + 18));
 		}
 	}
 	

@@ -38,6 +38,7 @@ public class EntityFamiliar extends EntityLiving {
 		super(worldIn);
 		inventory = new SavableInventory(getDisplayName(), SLOTCOUNT);
 		tasks = new FamiliarTasks();
+		this.height = 0.25f;
 	}
 	
 	@Override

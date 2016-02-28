@@ -32,11 +32,11 @@ public class FamiliarsMain {
 
 		NetworkRegistry.INSTANCE.registerGuiHandler(FamiliarsMain.instance, new FamiliarsGuiHandler());
 		
-		int redColor = (255 << 16);
-		int orangeColor = (255 << 16) + (200 << 8);
+		int back = (200 << 16) + (40 << 8) + (220);
+		int fore = (255 << 16) + (220);
 
-		EntityRegistry.registerModEntity(EntityFamiliar.class, "net.teamio.familiars.familiar", 0,
-				FamiliarsMain.instance, 128, 5, true, redColor, orangeColor);
+		EntityRegistry.registerModEntity(EntityFamiliar.class, "familiar", 0,
+				FamiliarsMain.instance, 128, 5, true, back, fore);
 
 	}
 
