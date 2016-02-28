@@ -20,7 +20,7 @@ plugins {
     id "net.minecraftforge.gradle.forge" version "2.0.2"
 }
 */
-version = "1.0"
+version = "1.0-hf1"
 group= "net.teamio"
 archivesBaseName = "familiars"
 

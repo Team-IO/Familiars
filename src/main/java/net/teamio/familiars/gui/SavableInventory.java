@@ -4,13 +4,8 @@ import net.minecraft.inventory.InventoryBasic;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
-import net.minecraft.util.IChatComponent;
 
 public class SavableInventory extends InventoryBasic {
-
-	public SavableInventory(IChatComponent title, int slotCount) {
-		super(title, slotCount);
-	}
 
 	public SavableInventory(String title, boolean customName, int slotCount) {
 		super(title, customName, slotCount);
