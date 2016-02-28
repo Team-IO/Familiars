@@ -1,2 +1,9 @@
 familiars.hellomaster=Hello %s! I will follow you from now on.
 familiars.newmaster=%s has acquired a new familiar.
+familiars.follow_on=Okay, I'm coming.
+familiars.follow_off=Okay, I'll wait here.
+familiars.collect_on=You focus on mining, I'll take care of the items.
+familiars.collect_off=Alright, do it yourself then. I'll not collect anything.
+familiars.new_dropoff=I'll look %d blocks around here for any %s to drop stuff off.
+familiars.dropoffFull=All chests are full.
+familiars.dropoff=Dropping off. I found %d chests!
