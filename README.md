@@ -2,7 +2,7 @@
 Familiars for Minecraft that follow you, collect dropped items & store them in dedicated chests.
 
 ## Contributing
-If you want to contribute, you can do so [by reporting bugs](https://github.com/Team-IO/familiars/wiki), [by helping fix the bugs](https://github.com/Team-IO/familiars/pulls) or by spreading the word!
+If you want to contribute, you can do so [by reporting bugs](https://github.com/Team-IO/familiars/issues), [by helping fix the bugs](https://github.com/Team-IO/familiars/pulls) or by spreading the word!
 
 You are also welcome to [support us on Patreon](https://www.patreon.com/Team_IO?ty=h)!
 
