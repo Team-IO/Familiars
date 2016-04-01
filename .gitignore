@@ -17,13 +17,5 @@ out
 build
 .gradle
 
-# other
-eclipse
+# run
 run
-
-# mc
-config/
-logs/
-options.txt
-saves/
-/user*.json
